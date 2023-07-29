@@ -12,11 +12,7 @@ const SpaceCuriositiesBox = ({ handleChangeInfo, spaceCuriosity }) => {
         </article>
 
         <button className="change" onClick={handleChangeInfo}>
-          <img
-            className="rotatingIcon"
-            src="/public/images/Icons/refresh.png"
-            alt="refresh"
-          />
+          <img className="rotatingIcon" src="/public/images/refresh.png" />
         </button>
       </section>
 

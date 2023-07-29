@@ -43,11 +43,12 @@
 .change:hover {
   transform: scale(1.08);
   background-color: lightblue;
-  transform: rotate(90deg);
+  transform: rotate(360deg);
 }
 
 .change:active {
   transform: scale(0.92);
+  transform: rotate(180deg);
   background-color: lightblue;
 }
 
