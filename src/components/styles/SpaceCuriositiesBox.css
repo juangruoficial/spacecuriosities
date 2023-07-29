@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "eternal";
+  src: url(/public/fontsFamily/eternalsfuturisticspace/Eternal.woff)
+    format("woff");
+}
+
+.spaceCuriosityBox {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  place-items: center;
+  width: min(100%, 500px);
+  margin: 0 auto;
+}
+
+.boxes {
+  margin-top: 2rem;
+  opacity: 0.7;
+  background-color: var(--color-primary-boxes);
+  color: var(--color-primary-letter);
+  padding: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 8px rgb(119, 124, 222);
+}
+
+.change {
+  border: none;
+  margin-top: 5rem;
+  background-color: var(--color-primary-letter);
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin: 0 auto;
+  opacity: 0.7;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.change:hover {
+  transform: scale(1.08);
+  background-color: lightblue;
+  transform: rotate(90deg);
+}
+
+.change:active {
+  transform: scale(0.92);
+  background-color: lightblue;
+}
+
+.footer {
+  margin-bottom: 1rem;
+}
