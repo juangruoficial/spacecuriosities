@@ -2,7 +2,8 @@
   line-height: 1.5;
   font-weight: 400;
   --color-primary-letter: black;
-  --color-primary-boxes: black;
+  --color-primary-textshadowmain: 1px 1px 5px rgb(255, 255, 255);
+  --color-primary-textshadowinfo: 1px 1px 5px rgb(231, 153, 146);
 }
 
 *,

@@ -22,14 +22,14 @@
 
 .title {
   text-align: center;
-  text-shadow: 1px 1px 5px rgb(255, 255, 255);
+  text-shadow: var(--color-primary-textshadowmain);
 }
 
 .info {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
-  text-shadow: 1px 1px 5px rgb(231, 153, 146);
+  text-shadow: var(--color-primary-textshadowinfo);
   font-size: 1.3rem;
 }
 
@@ -46,19 +46,17 @@
 }
 
 .change:hover {
-  transform: scale(1.08);
   background-color: lightblue;
-  transform: rotate(360deg);
+  transform: rotate(360deg) scale(1.25);
 }
 
 .change:active {
-  transform: scale(0.92);
+  transform: scale(0.9);
   transform: rotate(180deg);
-  background-color: lightblue;
 }
 
 .footer {
   margin-bottom: 1rem;
-  text-shadow: 1px 1px 5px rgb(255, 255, 255);
+  text-shadow: var(--color-primary-textshadowmain);
   font-size: 1.3rem;
 }

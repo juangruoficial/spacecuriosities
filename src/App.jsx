@@ -9,8 +9,8 @@ function App() {
   const [spaceCuriosity, setSpaceCuriosity] = useState(
     getRandom(spaceCuriosities)
   );
-  const [currentBg, setCurrentBg] = useState(getRandom(listBg));
 
+  const [currentBg, setCurrentBg] = useState(getRandom(listBg));
   const handleChangeInfo = () => {
     setSpaceCuriosity(getRandom(spaceCuriosities));
     setCurrentBg(getRandom(listBg));
