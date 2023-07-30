@@ -12,12 +12,10 @@ const SpaceCuriositiesBox = ({ handleChangeInfo, spaceCuriosity }) => {
           <Texteffect text={phrase} />
         </article>
 
-        <button className="change" onClick={handleChangeInfo}>
-          <img
-            className="rotatingIcon"
-            src="/public/images/refresh-svgrepo-com.svg"
-          />
-        </button>
+        <button
+          className="change rotatingIcon"
+          onClick={handleChangeInfo}
+        ></button>
       </section>
 
       <footer className="footer boxes">
