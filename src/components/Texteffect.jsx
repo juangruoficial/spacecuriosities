@@ -14,7 +14,7 @@ const Texteffect = ({ text }) => {
       } else {
         clearInterval(timer);
       }
-    }, 50);
+    }, 10);
 
     return () => clearInterval(timer);
   }, [text]);
